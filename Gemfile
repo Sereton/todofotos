@@ -5,8 +5,12 @@ ruby '2.6.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.2', '>= 6.0.2.1'
-# Use sqlite3 as the database for Active Record
+# Use pg as the database for Active Record
 gem 'pg'
+#font-awesome in ERB
+gem 'font_awesome5_rails'
+#authentication and session management
+gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
