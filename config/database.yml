@@ -1,0 +1,22 @@
+
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: todofotos_development
+  pool: 5
+  host: 127.0.0.1
+  username: postgres
+  password: postgres
+  timeout: 5000
+ 
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: todofotos_test
+  pool: 5
+  host: 127.0.0.1
+  username: postgres
+  password: postgres
+  timeout: 5000
+
